@@ -1,30 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# frame-e
+cloud frame order writing software
 
-## Getting Started
+## Intro
+Frame-e will allow frameshops to write orders, track orders, and keep a record of clients all online. 
 
-First, run the development server:
+## ERD
+Entity Relationship Diagram shows how all the database connects
+[ERD Link](https://lucid.app/lucidchart/388987bd-c1e4-4966-a663-db1cf8c405fb/edit?beaconFlowId=D419958C3FDA3200&page=0_0#?folder_id=home&browser=icon)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Trello Board
+List of user stories, build requirements and icebox items
+[Trello](https://trello.com/b/WBzpPrlb/frame-e)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Major Hurdles
+- Affordable hosting
+- Vendor Items Data
+- Authentication and Licensing
+- Multi opening mats
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Wire Frames
+![Order](order.jpg)
+![Shop Home Screen](shophome.jpg)
+![Login](login.jpg)
+![Site Map](sitemap.jpg)
