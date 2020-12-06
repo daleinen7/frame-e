@@ -17,6 +17,7 @@ List of user stories, build requirements and icebox items
 - Vendor Items Data
 - Authentication and Licensing
 - Multi opening mats
+- Dynamic Form reflecting wanted options per shop
 
 ## Wire Frames
 ![Order](order.jpg)
