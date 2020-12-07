@@ -16,7 +16,9 @@ export default function Layout({children, home}) {
 
         </Head>
         <header className={styles.header}>
-            <h1>Frame-E | ShopName Goes Here: Username goes here</h1>
+            {!home && (
+                <h1>Frame-E | ShopName Goes Here: Username goes here</h1>
+            )}
         </header>
         <main>{children}</main>
         {!home && (
