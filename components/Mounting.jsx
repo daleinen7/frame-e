@@ -1,8 +1,8 @@
-export default function Mounting() {
+export default function Mounting(props) {
   return (
     <>
       <label htmlFor="mounting">Mounting</label>
-      <select name="mounting" id="mounting">
+      <select ref={props.register} name="mounting" id="mounting">
         <option value="hinge">Hinge</option>
         <option value="photoCorners">Photo Corners</option>
         <option value="stretch">Stretch</option>

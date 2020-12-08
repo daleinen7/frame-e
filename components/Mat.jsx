@@ -1,8 +1,8 @@
-export default function Mat() {
+export default function Mat(props) {
   return (
     <>
       <label htmlFor="mat">Mat</label>
-      <input type="text" name="mat" id="mat" placeholder="Mat #"/>
+      <input ref={props.register} type="text" name="mat" id="mat" placeholder="Mat #"/>
     </>
   )
 }

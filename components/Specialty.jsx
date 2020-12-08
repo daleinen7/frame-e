@@ -1,8 +1,8 @@
-export default function Specialty() {
+export default function Specialty(props) {
   return (
     <>
       <label htmlFor="specialty">Specialty</label>
-      <select name="specialty" id="specialty">
+      <select ref={props.register} name="specialty" id="specialty">
         <option value="frenchLine">French Line</option>
         <option value="paintedBevel">Painted Bevel</option>
         <option value="jersey">Jersey</option>
